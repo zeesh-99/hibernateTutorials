@@ -15,9 +15,10 @@ public class CreateStudentDemo {
 									.configure("hibernate.cfg.xml")
 									.addAnnotatedClass(Student.class)
 									.buildSessionFactory();
-		//
+		// something
 		
 		//create session
+		//
 		
 		Session session = factory.getCurrentSession();
 		
