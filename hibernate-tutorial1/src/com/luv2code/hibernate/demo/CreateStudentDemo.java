@@ -18,7 +18,7 @@ public class CreateStudentDemo {
 		// something
 		
 		//create session
-		//
+		// new
 		
 		Session session = factory.getCurrentSession();
 		
