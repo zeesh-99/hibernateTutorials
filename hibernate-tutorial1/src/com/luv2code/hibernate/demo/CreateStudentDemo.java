@@ -15,6 +15,7 @@ public class CreateStudentDemo {
 									.configure("hibernate.cfg.xml")
 									.addAnnotatedClass(Student.class)
 									.buildSessionFactory();
+		//
 		
 		//create session
 		
@@ -44,6 +45,7 @@ public class CreateStudentDemo {
 			factory.close();
 			//ToDO : Some Text
             //some more
+			// another test
 			
 		}
 	}
